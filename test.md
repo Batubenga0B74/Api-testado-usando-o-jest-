@@ -12,6 +12,15 @@
 
 # No Jest, os métodos .toBe e .toHaveProperty são matchers usados para comparar valores em testes. Eles ajudam a verificar se os resultados de uma função ou operação estão corretos.toBe .toBe é usado para comparar valores primitivos (como números, strings, booleanos, etc.) ou para verificar se duas referências de objetos apontam para o mesmo objeto.
 
-```
+# TDD - uma pratica de desenvolvimento de softwere  defendido pelo eXtremme programing || TDD - desenvolvimento orientado a teste  TDD  é uma pratica 
+# circulo do TDD 
+# RED 
+# GREEN
+# REFACTOR
 
-````
+
+# TEST PONTO A PONTO -- testar 
+# UNITARIO  ---  testar uma parte do sistema 
+# TESTE DE INTEGRAÇÃO  testar o comportamento do sistema com a api
+
+NEBULOSO---CONFUSO t
