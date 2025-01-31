@@ -1,7 +1,7 @@
 import type { FastifyInstance } from "fastify";
 import { prisma} from "../../service/prisma"
 
-export function list_All_Funcionario(app:FastifyInstance){
+export function list_All_employe(app:FastifyInstance){
     app.get("/list",async(req,res)=>{
         try {
             const data = await prisma.funcionario.findMany()

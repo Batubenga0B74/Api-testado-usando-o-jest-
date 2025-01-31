@@ -1,11 +1,11 @@
 // essa instancia permite fraguimentar o fastify
 import type { FastifyInstance } from "fastify";
-import { FuncionariosType } from "./funcionarios.dto";
+import { employeType} from "../employee/employee.dto";
 import { prisma } from "../../service/prisma";
 
 //criar a funcão que vai criar o funcionário
-export function Create_funcionario(app:FastifyInstance){
-    app.post<{Body:FuncionariosType}>("/create", async(req,res)=>{
+export function Create_employe(app:FastifyInstance){
+    app.post<{Body:employeType}>("/create", async(req,res)=>{
         //desestruturando as informações vinda do Body
         const {telefone,bilhete,nome} =req.body
         //verificar se os dados existem no corpo da requisição

@@ -17,7 +17,7 @@ model Produtos{
   descricao String
 }
 model Funcionario{
-  id Int @id @default(autoincrement())
+   id String @id @default(uuid())
   nome String
   telefone String
   bilhete String
